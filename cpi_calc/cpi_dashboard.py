@@ -4,15 +4,6 @@ Created on Wed Mar 27 16:08:39 2019
 
 @author: Richy
 """
-
-#pip install dash==0.21.1  
-#pip install dash-renderer==0.13.0  
-#pip install dash-html-components==0.11.0
-#pip install dash-core-components==0.23.0  
-#pip install plotly --upgrade
-
-
-
 import dash 
 import dash_core_components as dcc
 import dash_html_components as html 
