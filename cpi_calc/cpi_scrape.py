@@ -48,4 +48,4 @@ df = df.drop([0, 1])
 df = df.set_index('Year')
 df = df.replace(r'^\s*$', 0, regex=True)
 
-#df.to_csv('cpi_per_year.csv', index = True, encoding='utf-8')
+df.to_csv('cpi_per_year.csv', index = True, encoding='utf-8')
