@@ -20,7 +20,7 @@ from dash.dependencies import Input, Output
 
 import pandas as pd 
 
-path = r"C:\Users\Richy\Documents\Python Scripts\Web scrapes\CPI\cpi_per_year.csv"
+path = "cpi_per_year.csv"
 df = pd.read_csv(path, encoding = 'utf8')
 
 df = df.set_index('Year')
